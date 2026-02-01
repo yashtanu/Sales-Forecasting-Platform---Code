@@ -1,0 +1,258 @@
+{
+  "timestamp": "2026-02-01T11:21:01.044153",
+  "drift_detected": true,
+  "methods": {
+    "mape": {
+      "current_mape": 8.538833668351328,
+      "baseline_mape": 7.6807194409637,
+      "increase_pct": 11.172315744421473,
+      "drift_detected": true,
+      "severity": "moderate",
+      "action": "retrain_cluster"
+    },
+    "psi": {
+      "drifted_features": 8,
+      "total_features": 46,
+      "drift_detected": true,
+      "details": {
+        "sales_amount": {
+          "psi": 0.05063495513815146,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "num_transactions": {
+          "psi": 0.0815137045479837,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "avg_transaction_value": {
+          "psi": 0.0050369974485393095,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "promotion_flag": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "promotion_discount": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "day_of_week": {
+          "psi": 0.0005133715616576684,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "is_weekend": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "month": {
+          "psi": 10.355695264202764,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "year": {
+          "psi": 15.738371881872443,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "day_of_month": {
+          "psi": 0.011256205306680188,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "quarter": {
+          "psi": 0.6790902349953138,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "week_of_year": {
+          "psi": 11.356516243334571,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "month_sin": {
+          "psi": 5.427480062894108,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "month_cos": {
+          "psi": 8.747955999676805,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "day_of_week_sin": {
+          "psi": 0.0003748764741984362,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "day_of_week_cos": {
+          "psi": 0.0005112228134618271,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "days_to_black_friday": {
+          "psi": 10.965460357329519,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "days_to_new_year": {
+          "psi": 12.966867236609712,
+          "drift_detected": true,
+          "severity": "high"
+        },
+        "store_size_sqm": {
+          "psi": 0.005133352621857648,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "avg_price_point": {
+          "psi": 0.014070650202259047,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "country_encoded": {
+          "psi": 0.007175720202259867,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "location_type_encoded": {
+          "psi": 0.0035795433293899863,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "tier_encoded": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "category_encoded": {
+          "psi": 0.004882638524055692,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "price_tier_encoded": {
+          "psi": 0.0008635304688546723,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "gdp_growth": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "tourism_index": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "currency_rate_to_usd": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "temperature_celsius": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "is_public_holiday": {
+          "psi": 0.0,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_lag_7d": {
+          "psi": 0.05994076811030356,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_lag_14d": {
+          "psi": 0.06871701746022532,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_lag_30d": {
+          "psi": 0.08965682114431042,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_lag_365d": {
+          "psi": 0.05692334646893847,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_mean_7d": {
+          "psi": 0.06887383962004871,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_std_7d": {
+          "psi": 0.03262591891097195,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_max_7d": {
+          "psi": 0.05389944427822673,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_min_7d": {
+          "psi": 0.07801378732836572,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_mean_14d": {
+          "psi": 0.07520976625108217,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_std_14d": {
+          "psi": 0.0332435232158043,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_max_14d": {
+          "psi": 0.05195507489534665,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_min_14d": {
+          "psi": 0.09321297695037752,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_mean_30d": {
+          "psi": 0.09055783941323862,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_std_30d": {
+          "psi": 0.035239021739920905,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_max_30d": {
+          "psi": 0.05032660136343846,
+          "drift_detected": false,
+          "severity": "low"
+        },
+        "sales_amount_rolling_min_30d": {
+          "psi": 0.10276920854554879,
+          "drift_detected": false,
+          "severity": "medium"
+        }
+      }
+    },
+    "cusum": {
+      "cusum_pos": 4.488886612298089,
+      "cusum_neg": 0,
+      "drift_detected": false,
+      "direction": "positive"
+    }
+  },
+  "recommended_action": "retrain_cluster"
+}

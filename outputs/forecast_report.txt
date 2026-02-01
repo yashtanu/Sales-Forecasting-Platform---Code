@@ -1,0 +1,33 @@
+======================================================================
+ FORECAST SUMMARY REPORT
+======================================================================
+
+Generated: 2026-01-31 14:54:08
+
+Forecast Period:
+  • Start: 2026-02-01 00:00:00
+  • End: 2026-03-02 00:00:00
+  • Days: 30
+
+Coverage:
+  • Total Stores: 508
+  • Total Brands: 46
+  • Countries: 8
+
+Prediction Types:
+  • adapted: 424 stores
+  • global_only: 84 stores
+
+Forecast Statistics:
+  • Total Forecasted Sales: $78,436,677.22
+  • Average Daily Sales: $5,146.76
+  • Median Daily Sales: $5,496.40
+
+Top 5 Stores by Forecast:
+  • STORE_152: $306,168.66
+  • STORE_121: $303,740.09
+  • STORE_234: $302,286.22
+  • STORE_260: $302,032.67
+  • STORE_112: $301,883.96
+
+======================================================================

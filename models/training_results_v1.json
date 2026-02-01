@@ -1,0 +1,20 @@
+{
+  "global_model": {
+    "mape": 8.095216683033348,
+    "mae": 560.3784465807935,
+    "rmse": 771.1316376556468
+  },
+  "adapted_model": {
+    "mape": 8.060987563688721,
+    "mae": 560.2083433969389,
+    "rmse": 771.0407514557195
+  },
+  "improvement": {
+    "mape_reduction": 0.03422911934462647
+  },
+  "evaluation_stats": {
+    "total_samples": 41621,
+    "valid_samples": 40965,
+    "zero_sales_samples": 656
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-01-31T13:08:45.850097",
+  "total_stores": 508,
+  "total_brands": 46,
+  "total_sales_records": 416201,
+  "date_range": {
+    "start": "2022-02-06",
+    "end": "2026-01-31"
+  },
+  "data_tiers": {
+    "data_medium": 250,
+    "data_rich": 158,
+    "data_poor": 100
+  },
+  "countries": {
+    "Oman": 71,
+    "Kuwait": 67,
+    "Egypt": 67,
+    "Bahrain": 63,
+    "Qatar": 63,
+    "Jordan": 61,
+    "UAE": 60,
+    "Saudi Arabia": 56
+  },
+  "brands_by_category": {
+    "Cosmetics": 8,
+    "Jewelry": 8,
+    "Fragrances": 7,
+    "Luxury Watches": 6,
+    "Footwear": 5,
+    "Eyewear": 5,
+    "Fashion": 4,
+    "Handbags": 2,
+    "Multiple": 1
+  }
+}

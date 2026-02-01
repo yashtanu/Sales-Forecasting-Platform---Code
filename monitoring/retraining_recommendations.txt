@@ -1,0 +1,60 @@
+======================================================================
+ DRIFT DETECTION & MONITORING REPORT
+======================================================================
+
+Generated: 2026-02-01 11:21:03
+
+======================================================================
+ DRIFT DETECTION SUMMARY
+======================================================================
+
+Overall Drift Status: ⚠️  DRIFT DETECTED
+Recommended Action: RETRAIN_CLUSTER
+
+1. MAPE-Based Detection:
+   • Baseline MAPE: 7.68%
+   • Current MAPE: 8.54%
+   • Increase: 11.17%
+   • Severity: MODERATE
+   • Action: retrain_cluster
+
+2. PSI-Based Detection (Feature Drift):
+   • Features Analyzed: 46
+   • Features with Drift: 8
+   • Drift Detected: Yes
+
+3. CUSUM-Based Detection (Gradual Drift):
+   • Positive CUSUM: 4.49
+   • Negative CUSUM: 0.00
+   • Drift Direction: positive
+   • Drift Detected: No
+
+======================================================================
+ STORE HEALTH ANALYSIS
+======================================================================
+
+Stores by Health Status:
+   • Healthy: 53 (10.6%)
+   • Warning: 178 (35.6%)
+   • Critical: 269 (53.8%)
+
+Top 5 Critical Stores (Highest MAPE):
+   • STORE_402: MAPE=26.95%, MAE=$24.70
+   • STORE_409: MAPE=21.46%, MAE=$25.75
+   • STORE_232: MAPE=21.29%, MAE=$26.59
+   • STORE_011: MAPE=20.04%, MAE=$26.61
+   • STORE_159: MAPE=18.44%, MAE=$30.21
+
+======================================================================
+ RECOMMENDATIONS
+======================================================================
+
+1. Retrain models for affected store cluster (269 stores)
+
+2. Focus on stores: STORE_402, STORE_409, STORE_232, STORE_011, STORE_159 and others
+
+3. Feature drift detected in 8 features. Review data pipeline for quality issues.
+
+4. 269 stores in critical state. Consider cluster-level intervention.
+
+======================================================================

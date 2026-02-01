@@ -1,0 +1,509 @@
+store_id,store_name,brand_id,country,location_type,store_size_sqm,tier,history_days,opening_date,is_ecommerce
+STORE_001,Store 1,BRAND_08,UAE,airport,190,data_rich,1422,2022-03-11,False
+STORE_002,Store 2,BRAND_15,Kuwait,airport,102,data_rich,1220,2022-09-29,False
+STORE_003,Store 3,BRAND_35,Saudi Arabia,airport,266,data_rich,1441,2022-02-20,False
+STORE_004,Store 4,BRAND_02,Saudi Arabia,mall,169,data_rich,1111,2023-01-16,False
+STORE_005,Store 5,BRAND_39,UAE,airport,151,data_rich,1353,2022-05-19,False
+STORE_006,Store 6,BRAND_45,Egypt,mall,279,data_rich,1427,2022-03-06,False
+STORE_007,Store 7,BRAND_18,UAE,mall,407,data_rich,1396,2022-04-06,False
+STORE_008,Store 8,BRAND_22,Bahrain,mall,160,data_rich,1311,2022-06-30,False
+STORE_009,Store 9,BRAND_07,Saudi Arabia,street,99,data_rich,1267,2022-08-13,False
+STORE_010,Store 10,BRAND_23,Bahrain,mall,423,data_rich,1278,2022-08-02,False
+STORE_011,Store 11,BRAND_35,Saudi Arabia,street,90,data_rich,1330,2022-06-11,False
+STORE_012,Store 12,BRAND_19,Oman,airport,148,data_rich,1377,2022-04-25,False
+STORE_013,Store 13,BRAND_05,UAE,airport,166,data_rich,1455,2022-02-06,False
+STORE_014,Store 14,BRAND_06,Qatar,mall,244,data_rich,1243,2022-09-06,False
+STORE_015,Store 15,BRAND_30,Oman,mall,239,data_rich,1237,2022-09-12,False
+STORE_016,Store 16,BRAND_14,Bahrain,airport,399,data_rich,1276,2022-08-04,False
+STORE_017,Store 17,BRAND_05,Kuwait,airport,423,data_rich,1426,2022-03-07,False
+STORE_018,Store 18,BRAND_11,Jordan,street,188,data_rich,1220,2022-09-29,False
+STORE_019,Store 19,BRAND_45,Qatar,airport,216,data_rich,1422,2022-03-11,False
+STORE_020,Store 20,BRAND_15,UAE,street,255,data_rich,1123,2023-01-04,False
+STORE_021,Store 21,BRAND_05,Qatar,airport,498,data_rich,1232,2022-09-17,False
+STORE_022,Store 22,BRAND_14,Jordan,street,379,data_rich,1256,2022-08-24,False
+STORE_023,Store 23,BRAND_10,Bahrain,mall,176,data_rich,1329,2022-06-12,False
+STORE_024,Store 24,BRAND_35,Bahrain,airport,349,data_rich,1382,2022-04-20,False
+STORE_025,Store 25,BRAND_38,Egypt,street,162,data_rich,1314,2022-06-27,False
+STORE_026,Store 26,BRAND_33,Jordan,mall,436,data_rich,1165,2022-11-23,False
+STORE_027,Store 27,BRAND_08,Kuwait,airport,131,data_rich,1119,2023-01-08,False
+STORE_028,Store 28,BRAND_28,Saudi Arabia,street,245,data_rich,1443,2022-02-18,False
+STORE_029,Store 29,BRAND_30,Bahrain,airport,490,data_rich,1400,2022-04-02,False
+STORE_030,Store 30,BRAND_44,Saudi Arabia,airport,324,data_rich,1100,2023-01-27,False
+STORE_031,Store 31,BRAND_42,Oman,mall,200,data_rich,1231,2022-09-18,False
+STORE_032,Store 32,BRAND_11,Jordan,mall,419,data_rich,1317,2022-06-24,False
+STORE_033,Store 33,BRAND_33,Kuwait,airport,104,data_rich,1229,2022-09-20,False
+STORE_034,Store 34,BRAND_20,Qatar,mall,241,data_rich,1415,2022-03-18,False
+STORE_035,Store 35,BRAND_35,UAE,airport,215,data_rich,1177,2022-11-11,False
+STORE_036,Store 36,BRAND_02,Saudi Arabia,street,499,data_rich,1345,2022-05-27,False
+STORE_037,Store 37,BRAND_16,UAE,mall,499,data_rich,1252,2022-08-28,False
+STORE_038,Store 38,BRAND_06,Saudi Arabia,airport,298,data_rich,1385,2022-04-17,False
+STORE_039,Store 39,BRAND_35,Kuwait,mall,387,data_rich,1130,2022-12-28,False
+STORE_040,Store 40,BRAND_36,Kuwait,street,320,data_rich,1338,2022-06-03,False
+STORE_041,Store 41,BRAND_28,Qatar,airport,436,data_rich,1405,2022-03-28,False
+STORE_042,Store 42,BRAND_13,Bahrain,street,393,data_rich,1448,2022-02-13,False
+STORE_043,Store 43,BRAND_24,Jordan,airport,281,data_rich,1427,2022-03-06,False
+STORE_044,Store 44,BRAND_16,Qatar,mall,223,data_rich,1156,2022-12-02,False
+STORE_045,Store 45,BRAND_38,Qatar,airport,162,data_rich,1105,2023-01-22,False
+STORE_046,Store 46,BRAND_05,UAE,mall,84,data_rich,1098,2023-01-29,False
+STORE_047,Store 47,BRAND_22,Saudi Arabia,airport,171,data_rich,1111,2023-01-16,False
+STORE_048,Store 48,BRAND_43,Jordan,mall,326,data_rich,1237,2022-09-12,False
+STORE_049,Store 49,BRAND_37,Jordan,mall,451,data_rich,1162,2022-11-26,False
+STORE_050,Store 50,BRAND_27,Qatar,mall,99,data_rich,1337,2022-06-04,False
+STORE_051,Store 51,BRAND_28,Oman,street,260,data_rich,1432,2022-03-01,False
+STORE_052,Store 52,BRAND_04,Saudi Arabia,mall,256,data_rich,1334,2022-06-07,False
+STORE_053,Store 53,BRAND_07,Qatar,mall,147,data_rich,1268,2022-08-12,False
+STORE_054,Store 54,BRAND_29,Kuwait,street,143,data_rich,1369,2022-05-03,False
+STORE_055,Store 55,BRAND_30,Qatar,mall,276,data_rich,1237,2022-09-12,False
+STORE_056,Store 56,BRAND_07,UAE,airport,326,data_rich,1376,2022-04-26,False
+STORE_057,Store 57,BRAND_06,Qatar,mall,258,data_rich,1102,2023-01-25,False
+STORE_058,Store 58,BRAND_31,Qatar,street,80,data_rich,1343,2022-05-29,False
+STORE_059,Store 59,BRAND_25,UAE,street,185,data_rich,1179,2022-11-09,False
+STORE_060,Store 60,BRAND_19,Egypt,airport,424,data_rich,1327,2022-06-14,False
+STORE_061,Store 61,BRAND_43,Jordan,mall,147,data_rich,1379,2022-04-23,False
+STORE_062,Store 62,BRAND_14,UAE,airport,426,data_rich,1246,2022-09-03,False
+STORE_063,Store 63,BRAND_04,Oman,mall,75,data_rich,1372,2022-04-30,False
+STORE_064,Store 64,BRAND_31,Kuwait,mall,310,data_rich,1394,2022-04-08,False
+STORE_065,Store 65,BRAND_12,Saudi Arabia,airport,84,data_rich,1136,2022-12-22,False
+STORE_066,Store 66,BRAND_16,Egypt,mall,341,data_rich,1440,2022-02-21,False
+STORE_067,Store 67,BRAND_38,UAE,airport,91,data_rich,1221,2022-09-28,False
+STORE_068,Store 68,BRAND_43,Oman,street,154,data_rich,1309,2022-07-02,False
+STORE_069,Store 69,BRAND_21,Qatar,street,252,data_rich,1437,2022-02-24,False
+STORE_070,Store 70,BRAND_43,Bahrain,street,211,data_rich,1162,2022-11-26,False
+STORE_071,Store 71,BRAND_01,Jordan,airport,338,data_rich,1132,2022-12-26,False
+STORE_072,Store 72,BRAND_05,Qatar,airport,185,data_rich,1146,2022-12-12,False
+STORE_073,Store 73,BRAND_23,Saudi Arabia,mall,239,data_rich,1162,2022-11-26,False
+STORE_074,Store 74,BRAND_11,Jordan,airport,410,data_rich,1240,2022-09-09,False
+STORE_075,Store 75,BRAND_40,UAE,airport,468,data_rich,1249,2022-08-31,False
+STORE_076,Store 76,BRAND_20,Saudi Arabia,mall,185,data_rich,1378,2022-04-24,False
+STORE_077,Store 77,BRAND_07,Kuwait,street,194,data_rich,1154,2022-12-04,False
+STORE_078,Store 78,BRAND_14,Oman,mall,401,data_rich,1404,2022-03-29,False
+STORE_079,Store 79,BRAND_17,Jordan,street,483,data_rich,1419,2022-03-14,False
+STORE_080,Store 80,BRAND_06,Egypt,street,72,data_rich,1121,2023-01-06,False
+STORE_081,Store 81,BRAND_22,Kuwait,airport,184,data_rich,1096,2023-01-31,False
+STORE_082,Store 82,BRAND_29,Egypt,airport,54,data_rich,1177,2022-11-11,False
+STORE_083,Store 83,BRAND_05,Kuwait,airport,68,data_rich,1152,2022-12-06,False
+STORE_084,Store 84,BRAND_38,Kuwait,street,115,data_rich,1284,2022-07-27,False
+STORE_085,Store 85,BRAND_20,Oman,mall,233,data_rich,1116,2023-01-11,False
+STORE_086,Store 86,BRAND_44,Qatar,airport,102,data_rich,1202,2022-10-17,False
+STORE_087,Store 87,BRAND_36,Egypt,airport,433,data_rich,1276,2022-08-04,False
+STORE_088,Store 88,BRAND_16,Kuwait,mall,261,data_rich,1174,2022-11-14,False
+STORE_089,Store 89,BRAND_12,Oman,street,460,data_rich,1107,2023-01-20,False
+STORE_090,Store 90,BRAND_16,Bahrain,mall,453,data_rich,1437,2022-02-24,False
+STORE_091,Store 91,BRAND_07,Egypt,mall,489,data_rich,1454,2022-02-07,False
+STORE_092,Store 92,BRAND_15,Qatar,street,229,data_rich,1335,2022-06-06,False
+STORE_093,Store 93,BRAND_15,Qatar,mall,387,data_rich,1251,2022-08-29,False
+STORE_094,Store 94,BRAND_26,Oman,street,492,data_rich,1193,2022-10-26,False
+STORE_095,Store 95,BRAND_18,Oman,airport,310,data_rich,1130,2022-12-28,False
+STORE_096,Store 96,BRAND_44,Oman,mall,109,data_rich,1299,2022-07-12,False
+STORE_097,Store 97,BRAND_12,Bahrain,mall,105,data_rich,1228,2022-09-21,False
+STORE_098,Store 98,BRAND_28,Oman,airport,452,data_rich,1400,2022-04-02,False
+STORE_099,Store 99,BRAND_28,Saudi Arabia,street,345,data_rich,1255,2022-08-25,False
+STORE_100,Store 100,BRAND_17,UAE,airport,273,data_rich,1192,2022-10-27,False
+STORE_101,Store 101,BRAND_34,Qatar,street,270,data_rich,1095,2023-02-01,False
+STORE_102,Store 102,BRAND_43,Oman,airport,210,data_rich,1130,2022-12-28,False
+STORE_103,Store 103,BRAND_08,Bahrain,airport,208,data_rich,1434,2022-02-27,False
+STORE_104,Store 104,BRAND_27,Oman,street,406,data_rich,1436,2022-02-25,False
+STORE_105,Store 105,BRAND_36,Kuwait,mall,265,data_rich,1246,2022-09-03,False
+STORE_106,Store 106,BRAND_25,Kuwait,airport,341,data_rich,1435,2022-02-26,False
+STORE_107,Store 107,BRAND_26,UAE,street,196,data_rich,1249,2022-08-31,False
+STORE_108,Store 108,BRAND_28,Oman,street,276,data_rich,1202,2022-10-17,False
+STORE_109,Store 109,BRAND_44,Qatar,airport,292,data_rich,1321,2022-06-20,False
+STORE_110,Store 110,BRAND_43,Saudi Arabia,street,313,data_rich,1181,2022-11-07,False
+STORE_111,Store 111,BRAND_41,Oman,mall,469,data_rich,1434,2022-02-27,False
+STORE_112,Store 112,BRAND_44,Bahrain,mall,462,data_rich,1215,2022-10-04,False
+STORE_113,Store 113,BRAND_10,UAE,mall,175,data_rich,1196,2022-10-23,False
+STORE_114,Store 114,BRAND_40,Saudi Arabia,street,262,data_rich,1338,2022-06-03,False
+STORE_115,Store 115,BRAND_37,Qatar,airport,406,data_rich,1417,2022-03-16,False
+STORE_116,Store 116,BRAND_32,Egypt,mall,125,data_rich,1291,2022-07-20,False
+STORE_117,Store 117,BRAND_45,UAE,mall,448,data_rich,1430,2022-03-03,False
+STORE_118,Store 118,BRAND_15,Kuwait,airport,315,data_rich,1312,2022-06-29,False
+STORE_119,Store 119,BRAND_04,Qatar,mall,283,data_rich,1332,2022-06-09,False
+STORE_120,Store 120,BRAND_30,Oman,street,363,data_rich,1163,2022-11-25,False
+STORE_121,Store 121,BRAND_28,Jordan,mall,430,data_rich,1353,2022-05-19,False
+STORE_122,Store 122,BRAND_29,Bahrain,mall,480,data_rich,1338,2022-06-03,False
+STORE_123,Store 123,BRAND_18,Jordan,airport,172,data_rich,1421,2022-03-12,False
+STORE_124,Store 124,BRAND_29,Saudi Arabia,airport,196,data_rich,1235,2022-09-14,False
+STORE_125,Store 125,BRAND_18,Oman,street,326,data_rich,1215,2022-10-04,False
+STORE_126,Store 126,BRAND_09,Kuwait,mall,246,data_rich,1136,2022-12-22,False
+STORE_127,Store 127,BRAND_10,Qatar,mall,262,data_rich,1450,2022-02-11,False
+STORE_128,Store 128,BRAND_22,Jordan,street,81,data_rich,1303,2022-07-08,False
+STORE_129,Store 129,BRAND_27,Egypt,airport,406,data_rich,1200,2022-10-19,False
+STORE_130,Store 130,BRAND_37,Egypt,street,53,data_rich,1105,2023-01-22,False
+STORE_131,Store 131,BRAND_20,Egypt,street,325,data_rich,1275,2022-08-05,False
+STORE_132,Store 132,BRAND_39,Qatar,street,162,data_rich,1374,2022-04-28,False
+STORE_133,Store 133,BRAND_28,Jordan,mall,249,data_rich,1234,2022-09-15,False
+STORE_134,Store 134,BRAND_43,Egypt,airport,134,data_rich,1267,2022-08-13,False
+STORE_135,Store 135,BRAND_09,UAE,street,353,data_rich,1334,2022-06-07,False
+STORE_136,Store 136,BRAND_43,UAE,mall,379,data_rich,1383,2022-04-19,False
+STORE_137,Store 137,BRAND_09,Jordan,mall,75,data_rich,1314,2022-06-27,False
+STORE_138,Store 138,BRAND_25,Oman,mall,282,data_rich,1228,2022-09-21,False
+STORE_139,Store 139,BRAND_22,Egypt,street,435,data_rich,1262,2022-08-18,False
+STORE_140,Store 140,BRAND_17,Saudi Arabia,street,59,data_rich,1310,2022-07-01,False
+STORE_141,Store 141,BRAND_04,Oman,mall,382,data_rich,1371,2022-05-01,False
+STORE_142,Store 142,BRAND_42,UAE,mall,176,data_rich,1130,2022-12-28,False
+STORE_143,Store 143,BRAND_02,Kuwait,mall,114,data_rich,1197,2022-10-22,False
+STORE_144,Store 144,BRAND_43,Saudi Arabia,airport,161,data_rich,1337,2022-06-04,False
+STORE_145,Store 145,BRAND_45,Bahrain,street,135,data_rich,1333,2022-06-08,False
+STORE_146,Store 146,BRAND_39,Saudi Arabia,mall,209,data_rich,1405,2022-03-28,False
+STORE_147,Store 147,BRAND_38,UAE,street,344,data_rich,1150,2022-12-08,False
+STORE_148,Store 148,BRAND_25,Egypt,airport,151,data_rich,1441,2022-02-20,False
+STORE_149,Store 149,BRAND_38,Qatar,mall,406,data_rich,1133,2022-12-25,False
+STORE_150,Store 150,BRAND_44,Saudi Arabia,airport,450,data_rich,1249,2022-08-31,False
+STORE_151,Store 151,BRAND_23,Egypt,airport,239,data_medium,407,2024-12-20,False
+STORE_152,Store 152,BRAND_33,Oman,mall,484,data_medium,435,2024-11-22,False
+STORE_153,Store 153,BRAND_32,Saudi Arabia,street,235,data_medium,795,2023-11-28,False
+STORE_154,Store 154,BRAND_30,Kuwait,street,140,data_medium,1015,2023-04-22,False
+STORE_155,Store 155,BRAND_42,Bahrain,airport,463,data_medium,899,2023-08-16,False
+STORE_156,Store 156,BRAND_31,Jordan,street,472,data_medium,916,2023-07-30,False
+STORE_157,Store 157,BRAND_18,Oman,mall,475,data_medium,971,2023-06-05,False
+STORE_158,Store 158,BRAND_18,Jordan,mall,434,data_medium,453,2024-11-04,False
+STORE_159,Store 159,BRAND_37,Egypt,street,64,data_medium,840,2023-10-14,False
+STORE_160,Store 160,BRAND_21,Kuwait,street,158,data_medium,871,2023-09-13,False
+STORE_161,Store 161,BRAND_17,Oman,street,500,data_medium,728,2024-02-03,False
+STORE_162,Store 162,BRAND_45,Bahrain,airport,55,data_medium,975,2023-06-01,False
+STORE_163,Store 163,BRAND_13,Saudi Arabia,mall,418,data_medium,894,2023-08-21,False
+STORE_164,Store 164,BRAND_32,Qatar,airport,293,data_medium,781,2023-12-12,False
+STORE_165,Store 165,BRAND_32,Jordan,mall,97,data_medium,1026,2023-04-11,False
+STORE_166,Store 166,BRAND_15,Egypt,airport,174,data_medium,666,2024-04-05,False
+STORE_167,Store 167,BRAND_43,Oman,street,333,data_medium,678,2024-03-24,False
+STORE_168,Store 168,BRAND_23,Egypt,airport,331,data_medium,908,2023-08-07,False
+STORE_169,Store 169,BRAND_23,Jordan,street,206,data_medium,703,2024-02-28,False
+STORE_170,Store 170,BRAND_15,Saudi Arabia,airport,148,data_medium,622,2024-05-19,False
+STORE_171,Store 171,BRAND_08,Kuwait,mall,160,data_medium,688,2024-03-14,False
+STORE_172,Store 172,BRAND_18,Bahrain,mall,476,data_medium,860,2023-09-24,False
+STORE_173,Store 173,BRAND_19,Qatar,street,141,data_medium,563,2024-07-17,False
+STORE_174,Store 174,BRAND_01,Kuwait,street,73,data_medium,674,2024-03-28,False
+STORE_175,Store 175,BRAND_36,Bahrain,airport,114,data_medium,420,2024-12-07,False
+STORE_176,Store 176,BRAND_32,Saudi Arabia,mall,343,data_medium,1018,2023-04-19,False
+STORE_177,Store 177,BRAND_31,Jordan,street,224,data_medium,656,2024-04-15,False
+STORE_178,Store 178,BRAND_04,Bahrain,street,108,data_medium,553,2024-07-27,False
+STORE_179,Store 179,BRAND_26,Jordan,mall,345,data_medium,431,2024-11-26,False
+STORE_180,Store 180,BRAND_44,UAE,mall,126,data_medium,1009,2023-04-28,False
+STORE_181,Store 181,BRAND_20,Saudi Arabia,mall,110,data_medium,941,2023-07-05,False
+STORE_182,Store 182,BRAND_27,Qatar,airport,244,data_medium,936,2023-07-10,False
+STORE_183,Store 183,BRAND_29,Bahrain,airport,269,data_medium,826,2023-10-28,False
+STORE_184,Store 184,BRAND_37,UAE,airport,428,data_medium,677,2024-03-25,False
+STORE_185,Store 185,BRAND_14,Qatar,street,388,data_medium,466,2024-10-22,False
+STORE_186,Store 186,BRAND_11,Qatar,mall,332,data_medium,448,2024-11-09,False
+STORE_187,Store 187,BRAND_11,UAE,street,280,data_medium,441,2024-11-16,False
+STORE_188,Store 188,BRAND_39,Jordan,street,66,data_medium,1070,2023-02-26,False
+STORE_189,Store 189,BRAND_19,Bahrain,airport,490,data_medium,602,2024-06-08,False
+STORE_190,Store 190,BRAND_05,Qatar,street,453,data_medium,829,2023-10-25,False
+STORE_191,Store 191,BRAND_38,Qatar,street,108,data_medium,1005,2023-05-02,False
+STORE_192,Store 192,BRAND_15,Kuwait,street,473,data_medium,922,2023-07-24,False
+STORE_193,Store 193,BRAND_05,UAE,mall,455,data_medium,510,2024-09-08,False
+STORE_194,Store 194,BRAND_39,Bahrain,street,113,data_medium,679,2024-03-23,False
+STORE_195,Store 195,BRAND_45,Bahrain,airport,256,data_medium,844,2023-10-10,False
+STORE_196,Store 196,BRAND_33,Jordan,street,91,data_medium,643,2024-04-28,False
+STORE_197,Store 197,BRAND_03,Egypt,airport,215,data_medium,977,2023-05-30,False
+STORE_198,Store 198,BRAND_17,UAE,mall,167,data_medium,983,2023-05-24,False
+STORE_199,Store 199,BRAND_37,UAE,airport,470,data_medium,1055,2023-03-13,False
+STORE_200,Store 200,BRAND_37,UAE,mall,290,data_medium,640,2024-05-01,False
+STORE_201,Store 201,BRAND_42,Jordan,street,142,data_medium,896,2023-08-19,False
+STORE_202,Store 202,BRAND_28,Jordan,mall,290,data_medium,964,2023-06-12,False
+STORE_203,Store 203,BRAND_27,Oman,street,393,data_medium,721,2024-02-10,False
+STORE_204,Store 204,BRAND_11,Oman,street,405,data_medium,472,2024-10-16,False
+STORE_205,Store 205,BRAND_19,Egypt,airport,68,data_medium,872,2023-09-12,False
+STORE_206,Store 206,BRAND_06,Oman,street,215,data_medium,830,2023-10-24,False
+STORE_207,Store 207,BRAND_26,UAE,airport,495,data_medium,483,2024-10-05,False
+STORE_208,Store 208,BRAND_30,Egypt,mall,146,data_medium,920,2023-07-26,False
+STORE_209,Store 209,BRAND_24,Jordan,airport,276,data_medium,895,2023-08-20,False
+STORE_210,Store 210,BRAND_14,Bahrain,airport,117,data_medium,417,2024-12-10,False
+STORE_211,Store 211,BRAND_29,Jordan,mall,64,data_medium,659,2024-04-12,False
+STORE_212,Store 212,BRAND_39,Qatar,airport,131,data_medium,1010,2023-04-27,False
+STORE_213,Store 213,BRAND_36,UAE,airport,258,data_medium,683,2024-03-19,False
+STORE_214,Store 214,BRAND_15,Saudi Arabia,street,110,data_medium,460,2024-10-28,False
+STORE_215,Store 215,BRAND_10,Jordan,airport,199,data_medium,1028,2023-04-09,False
+STORE_216,Store 216,BRAND_18,Egypt,street,291,data_medium,886,2023-08-29,False
+STORE_217,Store 217,BRAND_30,Kuwait,street,147,data_medium,614,2024-05-27,False
+STORE_218,Store 218,BRAND_33,Kuwait,mall,191,data_medium,978,2023-05-29,False
+STORE_219,Store 219,BRAND_22,Bahrain,mall,194,data_medium,789,2023-12-04,False
+STORE_220,Store 220,BRAND_38,Jordan,mall,278,data_medium,670,2024-04-01,False
+STORE_221,Store 221,BRAND_31,Oman,street,332,data_medium,916,2023-07-30,False
+STORE_222,Store 222,BRAND_25,Jordan,street,495,data_medium,921,2023-07-25,False
+STORE_223,Store 223,BRAND_45,Qatar,airport,246,data_medium,558,2024-07-22,False
+STORE_224,Store 224,BRAND_27,UAE,street,431,data_medium,604,2024-06-06,False
+STORE_225,Store 225,BRAND_25,Egypt,airport,455,data_medium,849,2023-10-05,False
+STORE_226,Store 226,BRAND_10,Jordan,mall,114,data_medium,1032,2023-04-05,False
+STORE_227,Store 227,BRAND_38,Oman,mall,497,data_medium,879,2023-09-05,False
+STORE_228,Store 228,BRAND_07,Jordan,mall,419,data_medium,815,2023-11-08,False
+STORE_229,Store 229,BRAND_27,Kuwait,mall,290,data_medium,512,2024-09-06,False
+STORE_230,Store 230,BRAND_22,Egypt,airport,91,data_medium,636,2024-05-05,False
+STORE_231,Store 231,BRAND_44,Egypt,street,370,data_medium,701,2024-03-01,False
+STORE_232,Store 232,BRAND_35,UAE,airport,85,data_medium,864,2023-09-20,False
+STORE_233,Store 233,BRAND_41,Bahrain,mall,432,data_medium,605,2024-06-05,False
+STORE_234,Store 234,BRAND_28,Saudi Arabia,airport,410,data_medium,457,2024-10-31,False
+STORE_235,Store 235,BRAND_29,Kuwait,airport,203,data_medium,467,2024-10-21,False
+STORE_236,Store 236,BRAND_03,Oman,mall,200,data_medium,394,2025-01-02,False
+STORE_237,Store 237,BRAND_24,Egypt,mall,175,data_medium,732,2024-01-30,False
+STORE_238,Store 238,BRAND_27,Kuwait,mall,139,data_medium,908,2023-08-07,False
+STORE_239,Store 239,BRAND_40,Egypt,airport,399,data_medium,445,2024-11-12,False
+STORE_240,Store 240,BRAND_32,Kuwait,mall,286,data_medium,611,2024-05-30,False
+STORE_241,Store 241,BRAND_17,Jordan,street,391,data_medium,1018,2023-04-19,False
+STORE_242,Store 242,BRAND_30,Bahrain,airport,329,data_medium,374,2025-01-22,False
+STORE_243,Store 243,BRAND_05,Jordan,street,350,data_medium,526,2024-08-23,False
+STORE_244,Store 244,BRAND_41,Egypt,airport,178,data_medium,671,2024-03-31,False
+STORE_245,Store 245,BRAND_20,Qatar,street,486,data_medium,832,2023-10-22,False
+STORE_246,Store 246,BRAND_07,Qatar,street,342,data_medium,859,2023-09-25,False
+STORE_247,Store 247,BRAND_37,Bahrain,airport,201,data_medium,732,2024-01-30,False
+STORE_248,Store 248,BRAND_43,Egypt,street,54,data_medium,387,2025-01-09,False
+STORE_249,Store 249,BRAND_44,UAE,airport,431,data_medium,944,2023-07-02,False
+STORE_250,Store 250,BRAND_19,Qatar,airport,460,data_medium,873,2023-09-11,False
+STORE_251,Store 251,BRAND_15,Qatar,airport,178,data_medium,725,2024-02-06,False
+STORE_252,Store 252,BRAND_43,Kuwait,airport,99,data_medium,1059,2023-03-09,False
+STORE_253,Store 253,BRAND_42,UAE,street,453,data_medium,1007,2023-04-30,False
+STORE_254,Store 254,BRAND_03,Oman,airport,117,data_medium,816,2023-11-07,False
+STORE_255,Store 255,BRAND_19,Oman,airport,262,data_medium,457,2024-10-31,False
+STORE_256,Store 256,BRAND_13,Kuwait,airport,498,data_medium,544,2024-08-05,False
+STORE_257,Store 257,BRAND_34,Bahrain,mall,181,data_medium,739,2024-01-23,False
+STORE_258,Store 258,BRAND_19,Oman,mall,289,data_medium,858,2023-09-26,False
+STORE_259,Store 259,BRAND_10,Qatar,airport,420,data_medium,442,2024-11-15,False
+STORE_260,Store 260,BRAND_26,Oman,mall,454,data_medium,1055,2023-03-13,False
+STORE_261,Store 261,BRAND_01,Bahrain,airport,113,data_medium,769,2023-12-24,False
+STORE_262,Store 262,BRAND_24,Bahrain,airport,245,data_medium,830,2023-10-24,False
+STORE_263,Store 263,BRAND_24,Saudi Arabia,airport,169,data_medium,1018,2023-04-19,False
+STORE_264,Store 264,BRAND_02,Oman,airport,163,data_medium,847,2023-10-07,False
+STORE_265,Store 265,BRAND_05,Jordan,airport,204,data_medium,1028,2023-04-09,False
+STORE_266,Store 266,BRAND_27,Saudi Arabia,mall,73,data_medium,1029,2023-04-08,False
+STORE_267,Store 267,BRAND_20,Jordan,mall,99,data_medium,403,2024-12-24,False
+STORE_268,Store 268,BRAND_35,Kuwait,street,282,data_medium,605,2024-06-05,False
+STORE_269,Store 269,BRAND_43,Egypt,airport,430,data_medium,744,2024-01-18,False
+STORE_270,Store 270,BRAND_27,Saudi Arabia,street,365,data_medium,523,2024-08-26,False
+STORE_271,Store 271,BRAND_18,UAE,airport,239,data_medium,782,2023-12-11,False
+STORE_272,Store 272,BRAND_29,Jordan,mall,487,data_medium,587,2024-06-23,False
+STORE_273,Store 273,BRAND_07,Oman,airport,380,data_medium,736,2024-01-26,False
+STORE_274,Store 274,BRAND_04,Egypt,street,147,data_medium,732,2024-01-30,False
+STORE_275,Store 275,BRAND_30,Saudi Arabia,airport,158,data_medium,490,2024-09-28,False
+STORE_276,Store 276,BRAND_41,UAE,mall,452,data_medium,1022,2023-04-15,False
+STORE_277,Store 277,BRAND_16,Kuwait,airport,155,data_medium,706,2024-02-25,False
+STORE_278,Store 278,BRAND_36,Qatar,airport,160,data_medium,435,2024-11-22,False
+STORE_279,Store 279,BRAND_22,Kuwait,airport,51,data_medium,603,2024-06-07,False
+STORE_280,Store 280,BRAND_10,Kuwait,airport,178,data_medium,648,2024-04-23,False
+STORE_281,Store 281,BRAND_08,UAE,mall,57,data_medium,543,2024-08-06,False
+STORE_282,Store 282,BRAND_16,Oman,mall,139,data_medium,731,2024-01-31,False
+STORE_283,Store 283,BRAND_04,Kuwait,airport,265,data_medium,636,2024-05-05,False
+STORE_284,Store 284,BRAND_08,Saudi Arabia,street,279,data_medium,903,2023-08-12,False
+STORE_285,Store 285,BRAND_33,Saudi Arabia,street,307,data_medium,735,2024-01-27,False
+STORE_286,Store 286,BRAND_40,UAE,airport,451,data_medium,591,2024-06-19,False
+STORE_287,Store 287,BRAND_34,Bahrain,street,379,data_medium,1039,2023-03-29,False
+STORE_288,Store 288,BRAND_04,Jordan,street,268,data_medium,396,2024-12-31,False
+STORE_289,Store 289,BRAND_07,Jordan,airport,277,data_medium,1067,2023-03-01,False
+STORE_290,Store 290,BRAND_06,Oman,airport,125,data_medium,440,2024-11-17,False
+STORE_291,Store 291,BRAND_09,Bahrain,airport,374,data_medium,432,2024-11-25,False
+STORE_292,Store 292,BRAND_36,Oman,street,355,data_medium,964,2023-06-12,False
+STORE_293,Store 293,BRAND_19,Jordan,airport,359,data_medium,908,2023-08-07,False
+STORE_294,Store 294,BRAND_07,Saudi Arabia,airport,383,data_medium,805,2023-11-18,False
+STORE_295,Store 295,BRAND_14,Egypt,street,166,data_medium,929,2023-07-17,False
+STORE_296,Store 296,BRAND_22,Jordan,street,262,data_medium,788,2023-12-05,False
+STORE_297,Store 297,BRAND_21,Egypt,street,390,data_medium,462,2024-10-26,False
+STORE_298,Store 298,BRAND_24,Kuwait,airport,292,data_medium,626,2024-05-15,False
+STORE_299,Store 299,BRAND_06,Saudi Arabia,mall,271,data_medium,433,2024-11-24,False
+STORE_300,Store 300,BRAND_24,Kuwait,airport,80,data_medium,463,2024-10-25,False
+STORE_301,Store 301,BRAND_36,Oman,airport,112,data_medium,965,2023-06-11,False
+STORE_302,Store 302,BRAND_23,Egypt,airport,76,data_medium,785,2023-12-08,False
+STORE_303,Store 303,BRAND_39,Bahrain,street,103,data_medium,659,2024-04-12,False
+STORE_304,Store 304,BRAND_33,Qatar,mall,386,data_medium,956,2023-06-20,False
+STORE_305,Store 305,BRAND_15,Saudi Arabia,street,482,data_medium,858,2023-09-26,False
+STORE_306,Store 306,BRAND_24,Saudi Arabia,street,343,data_medium,934,2023-07-12,False
+STORE_307,Store 307,BRAND_28,UAE,airport,386,data_medium,596,2024-06-14,False
+STORE_308,Store 308,BRAND_18,UAE,mall,189,data_medium,1075,2023-02-21,False
+STORE_309,Store 309,BRAND_20,Oman,street,53,data_medium,1084,2023-02-12,False
+STORE_310,Store 310,BRAND_10,Egypt,mall,122,data_medium,550,2024-07-30,False
+STORE_311,Store 311,BRAND_02,Saudi Arabia,airport,321,data_medium,1013,2023-04-24,False
+STORE_312,Store 312,BRAND_25,Egypt,street,224,data_medium,585,2024-06-25,False
+STORE_313,Store 313,BRAND_24,Bahrain,airport,216,data_medium,526,2024-08-23,False
+STORE_314,Store 314,BRAND_39,Saudi Arabia,mall,129,data_medium,946,2023-06-30,False
+STORE_315,Store 315,BRAND_40,UAE,airport,91,data_medium,526,2024-08-23,False
+STORE_316,Store 316,BRAND_29,Egypt,street,360,data_medium,643,2024-04-28,False
+STORE_317,Store 317,BRAND_27,Bahrain,mall,436,data_medium,817,2023-11-06,False
+STORE_318,Store 318,BRAND_08,Oman,street,106,data_medium,889,2023-08-26,False
+STORE_319,Store 319,BRAND_44,Jordan,airport,391,data_medium,655,2024-04-16,False
+STORE_320,Store 320,BRAND_03,Qatar,street,356,data_medium,680,2024-03-22,False
+STORE_321,Store 321,BRAND_01,Qatar,street,158,data_medium,421,2024-12-06,False
+STORE_322,Store 322,BRAND_17,Bahrain,street,111,data_medium,505,2024-09-13,False
+STORE_323,Store 323,BRAND_32,Egypt,mall,116,data_medium,372,2025-01-24,False
+STORE_324,Store 324,BRAND_35,Qatar,airport,336,data_medium,754,2024-01-08,False
+STORE_325,Store 325,BRAND_23,Saudi Arabia,street,491,data_medium,1049,2023-03-19,False
+STORE_326,Store 326,BRAND_28,UAE,street,89,data_medium,408,2024-12-19,False
+STORE_327,Store 327,BRAND_37,Egypt,airport,257,data_medium,685,2024-03-17,False
+STORE_328,Store 328,BRAND_41,Egypt,street,108,data_medium,1091,2023-02-05,False
+STORE_329,Store 329,BRAND_02,Oman,mall,460,data_medium,779,2023-12-14,False
+STORE_330,Store 330,BRAND_30,Oman,mall,273,data_medium,997,2023-05-10,False
+STORE_331,Store 331,BRAND_16,Egypt,airport,255,data_medium,473,2024-10-15,False
+STORE_332,Store 332,BRAND_06,Egypt,street,431,data_medium,901,2023-08-14,False
+STORE_333,Store 333,BRAND_15,Oman,mall,89,data_medium,712,2024-02-19,False
+STORE_334,Store 334,BRAND_41,Saudi Arabia,airport,311,data_medium,887,2023-08-28,False
+STORE_335,Store 335,BRAND_23,Oman,airport,469,data_medium,563,2024-07-17,False
+STORE_336,Store 336,BRAND_10,Qatar,mall,124,data_medium,1025,2023-04-12,False
+STORE_337,Store 337,BRAND_13,Kuwait,airport,128,data_medium,627,2024-05-14,False
+STORE_338,Store 338,BRAND_05,Kuwait,airport,302,data_medium,1036,2023-04-01,False
+STORE_339,Store 339,BRAND_37,Jordan,airport,339,data_medium,840,2023-10-14,False
+STORE_340,Store 340,BRAND_41,Oman,airport,211,data_medium,1023,2023-04-14,False
+STORE_341,Store 341,BRAND_29,Saudi Arabia,street,276,data_medium,519,2024-08-30,False
+STORE_342,Store 342,BRAND_20,Bahrain,airport,78,data_medium,1011,2023-04-26,False
+STORE_343,Store 343,BRAND_33,Saudi Arabia,street,286,data_medium,725,2024-02-06,False
+STORE_344,Store 344,BRAND_03,UAE,street,475,data_medium,827,2023-10-27,False
+STORE_345,Store 345,BRAND_05,Saudi Arabia,airport,354,data_medium,658,2024-04-13,False
+STORE_346,Store 346,BRAND_25,Jordan,airport,333,data_medium,884,2023-08-31,False
+STORE_347,Store 347,BRAND_29,Qatar,street,359,data_medium,407,2024-12-20,False
+STORE_348,Store 348,BRAND_33,Kuwait,mall,280,data_medium,852,2023-10-02,False
+STORE_349,Store 349,BRAND_22,Saudi Arabia,airport,380,data_medium,470,2024-10-18,False
+STORE_350,Store 350,BRAND_03,Qatar,airport,274,data_medium,541,2024-08-08,False
+STORE_351,Store 351,BRAND_34,Kuwait,street,240,data_medium,814,2023-11-09,False
+STORE_352,Store 352,BRAND_25,Egypt,street,397,data_medium,654,2024-04-17,False
+STORE_353,Store 353,BRAND_04,Oman,mall,218,data_medium,977,2023-05-30,False
+STORE_354,Store 354,BRAND_36,Egypt,street,179,data_medium,461,2024-10-27,False
+STORE_355,Store 355,BRAND_39,Kuwait,street,91,data_medium,1037,2023-03-31,False
+STORE_356,Store 356,BRAND_43,Kuwait,street,208,data_medium,961,2023-06-15,False
+STORE_357,Store 357,BRAND_45,Egypt,mall,354,data_medium,1036,2023-04-01,False
+STORE_358,Store 358,BRAND_06,Bahrain,airport,242,data_medium,1090,2023-02-06,False
+STORE_359,Store 359,BRAND_22,Kuwait,airport,409,data_medium,1023,2023-04-14,False
+STORE_360,Store 360,BRAND_34,Saudi Arabia,airport,393,data_medium,1066,2023-03-02,False
+STORE_361,Store 361,BRAND_33,Oman,mall,235,data_medium,798,2023-11-25,False
+STORE_362,Store 362,BRAND_12,Qatar,street,442,data_medium,681,2024-03-21,False
+STORE_363,Store 363,BRAND_13,Qatar,mall,129,data_medium,862,2023-09-22,False
+STORE_364,Store 364,BRAND_19,Saudi Arabia,airport,444,data_medium,444,2024-11-13,False
+STORE_365,Store 365,BRAND_34,UAE,airport,222,data_medium,917,2023-07-29,False
+STORE_366,Store 366,BRAND_09,Egypt,mall,133,data_medium,997,2023-05-10,False
+STORE_367,Store 367,BRAND_45,Kuwait,airport,274,data_medium,550,2024-07-30,False
+STORE_368,Store 368,BRAND_27,Oman,airport,418,data_medium,409,2024-12-18,False
+STORE_369,Store 369,BRAND_29,Bahrain,airport,451,data_medium,608,2024-06-02,False
+STORE_370,Store 370,BRAND_15,Qatar,street,464,data_medium,824,2023-10-30,False
+STORE_371,Store 371,BRAND_13,Oman,airport,342,data_medium,845,2023-10-09,False
+STORE_372,Store 372,BRAND_30,Bahrain,street,307,data_medium,816,2023-11-07,False
+STORE_373,Store 373,BRAND_27,Kuwait,mall,460,data_medium,905,2023-08-10,False
+STORE_374,Store 374,BRAND_09,Bahrain,mall,378,data_medium,984,2023-05-23,False
+STORE_375,Store 375,BRAND_24,Saudi Arabia,airport,483,data_medium,857,2023-09-27,False
+STORE_376,Store 376,BRAND_08,Bahrain,mall,440,data_medium,893,2023-08-22,False
+STORE_377,Store 377,BRAND_18,Jordan,airport,125,data_medium,529,2024-08-20,False
+STORE_378,Store 378,BRAND_06,Qatar,street,228,data_medium,812,2023-11-11,False
+STORE_379,Store 379,BRAND_27,UAE,street,307,data_medium,392,2025-01-04,False
+STORE_380,Store 380,BRAND_16,Egypt,mall,241,data_medium,747,2024-01-15,False
+STORE_381,Store 381,BRAND_02,Oman,mall,479,data_medium,594,2024-06-16,False
+STORE_382,Store 382,BRAND_22,Kuwait,mall,69,data_medium,1030,2023-04-07,False
+STORE_383,Store 383,BRAND_31,Kuwait,airport,290,data_medium,658,2024-04-13,False
+STORE_384,Store 384,BRAND_40,UAE,mall,59,data_medium,824,2023-10-30,False
+STORE_385,Store 385,BRAND_14,Kuwait,airport,422,data_medium,627,2024-05-14,False
+STORE_386,Store 386,BRAND_34,Egypt,mall,447,data_medium,988,2023-05-19,False
+STORE_387,Store 387,BRAND_16,Bahrain,mall,74,data_medium,660,2024-04-11,False
+STORE_388,Store 388,BRAND_27,Jordan,mall,106,data_medium,609,2024-06-01,False
+STORE_389,Store 389,BRAND_39,UAE,airport,313,data_medium,876,2023-09-08,False
+STORE_390,Store 390,BRAND_16,Kuwait,street,269,data_medium,953,2023-06-23,False
+STORE_391,Store 391,BRAND_40,Oman,mall,342,data_medium,366,2025-01-30,False
+STORE_392,Store 392,BRAND_12,Saudi Arabia,airport,234,data_medium,791,2023-12-02,False
+STORE_393,Store 393,BRAND_34,UAE,street,497,data_medium,434,2024-11-23,False
+STORE_394,Store 394,BRAND_03,Egypt,street,179,data_medium,846,2023-10-08,False
+STORE_395,Store 395,BRAND_23,Saudi Arabia,street,173,data_medium,381,2025-01-15,False
+STORE_396,Store 396,BRAND_41,Saudi Arabia,airport,426,data_medium,1037,2023-03-31,False
+STORE_397,Store 397,BRAND_09,UAE,street,329,data_medium,705,2024-02-26,False
+STORE_398,Store 398,BRAND_42,Kuwait,airport,287,data_medium,711,2024-02-20,False
+STORE_399,Store 399,BRAND_31,Kuwait,mall,82,data_medium,1077,2023-02-19,False
+STORE_400,Store 400,BRAND_03,Bahrain,mall,72,data_medium,833,2023-10-21,False
+STORE_401,Store 401,BRAND_03,Oman,street,313,data_poor,231,2025-06-14,False
+STORE_402,Store 402,BRAND_35,Jordan,street,68,data_poor,281,2025-04-25,False
+STORE_403,Store 403,BRAND_13,Bahrain,street,491,data_poor,345,2025-02-20,False
+STORE_404,Store 404,BRAND_42,Oman,street,113,data_poor,192,2025-07-23,False
+STORE_405,Store 405,BRAND_28,Egypt,airport,275,data_poor,274,2025-05-02,False
+STORE_406,Store 406,BRAND_22,Kuwait,street,404,data_poor,278,2025-04-28,False
+STORE_407,Store 407,BRAND_24,Bahrain,mall,422,data_poor,307,2025-03-30,False
+STORE_408,Store 408,BRAND_06,Egypt,airport,471,data_poor,288,2025-04-18,False
+STORE_409,Store 409,BRAND_35,Bahrain,street,102,data_poor,226,2025-06-19,False
+STORE_410,Store 410,BRAND_21,Bahrain,street,278,data_poor,200,2025-07-15,False
+STORE_411,Store 411,BRAND_28,Kuwait,airport,277,data_poor,334,2025-03-03,False
+STORE_412,Store 412,BRAND_29,UAE,airport,495,data_poor,269,2025-05-07,False
+STORE_413,Store 413,BRAND_40,Egypt,street,377,data_poor,270,2025-05-06,False
+STORE_414,Store 414,BRAND_05,Egypt,street,312,data_poor,194,2025-07-21,False
+STORE_415,Store 415,BRAND_11,UAE,mall,484,data_poor,353,2025-02-12,False
+STORE_416,Store 416,BRAND_44,Jordan,mall,114,data_poor,335,2025-03-02,False
+STORE_417,Store 417,BRAND_16,Oman,street,246,data_poor,197,2025-07-18,False
+STORE_418,Store 418,BRAND_03,Kuwait,airport,280,data_poor,325,2025-03-12,False
+STORE_419,Store 419,BRAND_24,Jordan,mall,343,data_poor,274,2025-05-02,False
+STORE_420,Store 420,BRAND_34,Oman,street,210,data_poor,215,2025-06-30,False
+STORE_421,Store 421,BRAND_18,Qatar,mall,63,data_poor,346,2025-02-19,False
+STORE_422,Store 422,BRAND_32,Egypt,airport,110,data_poor,227,2025-06-18,False
+STORE_423,Store 423,BRAND_17,Jordan,mall,363,data_poor,247,2025-05-29,False
+STORE_424,Store 424,BRAND_45,Jordan,mall,112,data_poor,253,2025-05-23,False
+STORE_425,Store 425,BRAND_05,Jordan,mall,415,data_poor,214,2025-07-01,False
+STORE_426,Store 426,BRAND_06,Oman,airport,227,data_poor,293,2025-04-13,False
+STORE_427,Store 427,BRAND_05,Bahrain,street,485,data_poor,361,2025-02-04,False
+STORE_428,Store 428,BRAND_45,Kuwait,street,310,data_poor,220,2025-06-25,False
+STORE_429,Store 429,BRAND_08,Qatar,mall,171,data_poor,237,2025-06-08,False
+STORE_430,Store 430,BRAND_02,Oman,airport,343,data_poor,306,2025-03-31,False
+STORE_431,Store 431,BRAND_30,Kuwait,airport,94,data_poor,274,2025-05-02,False
+STORE_432,Store 432,BRAND_20,Egypt,airport,418,data_poor,196,2025-07-19,False
+STORE_433,Store 433,BRAND_34,Egypt,street,471,data_poor,302,2025-04-04,False
+STORE_434,Store 434,BRAND_05,Kuwait,street,378,data_poor,327,2025-03-10,False
+STORE_435,Store 435,BRAND_29,Jordan,airport,314,data_poor,198,2025-07-17,False
+STORE_436,Store 436,BRAND_09,Kuwait,mall,271,data_poor,268,2025-05-08,False
+STORE_437,Store 437,BRAND_04,Saudi Arabia,airport,128,data_poor,308,2025-03-29,False
+STORE_438,Store 438,BRAND_11,Kuwait,street,413,data_poor,257,2025-05-19,False
+STORE_439,Store 439,BRAND_23,Bahrain,mall,178,data_poor,237,2025-06-08,False
+STORE_440,Store 440,BRAND_41,Bahrain,mall,370,data_poor,230,2025-06-15,False
+STORE_441,Store 441,BRAND_40,Saudi Arabia,airport,378,data_poor,257,2025-05-19,False
+STORE_442,Store 442,BRAND_38,Kuwait,mall,387,data_poor,223,2025-06-22,False
+STORE_443,Store 443,BRAND_39,Oman,airport,71,data_poor,339,2025-02-26,False
+STORE_444,Store 444,BRAND_06,UAE,airport,444,data_poor,187,2025-07-28,False
+STORE_445,Store 445,BRAND_17,Qatar,airport,263,data_poor,327,2025-03-10,False
+STORE_446,Store 446,BRAND_41,UAE,street,371,data_poor,338,2025-02-27,False
+STORE_447,Store 447,BRAND_19,Bahrain,street,175,data_poor,319,2025-03-18,False
+STORE_448,Store 448,BRAND_26,Bahrain,street,87,data_poor,355,2025-02-10,False
+STORE_449,Store 449,BRAND_04,Kuwait,street,262,data_poor,356,2025-02-09,False
+STORE_450,Store 450,BRAND_30,Qatar,street,360,data_poor,303,2025-04-03,False
+STORE_451,Store 451,BRAND_21,Oman,airport,490,data_poor,216,2025-06-29,False
+STORE_452,Store 452,BRAND_26,Kuwait,street,313,data_poor,268,2025-05-08,False
+STORE_453,Store 453,BRAND_07,Oman,mall,288,data_poor,323,2025-03-14,False
+STORE_454,Store 454,BRAND_18,Jordan,mall,122,data_poor,211,2025-07-04,False
+STORE_455,Store 455,BRAND_04,Bahrain,street,492,data_poor,204,2025-07-11,False
+STORE_456,Store 456,BRAND_27,Qatar,mall,466,data_poor,337,2025-02-28,False
+STORE_457,Store 457,BRAND_37,Oman,mall,440,data_poor,263,2025-05-13,False
+STORE_458,Store 458,BRAND_32,Jordan,street,500,data_poor,220,2025-06-25,False
+STORE_459,Store 459,BRAND_32,UAE,mall,251,data_poor,258,2025-05-18,False
+STORE_460,Store 460,BRAND_30,Qatar,mall,348,data_poor,309,2025-03-28,False
+STORE_461,Store 461,BRAND_04,UAE,street,303,data_poor,270,2025-05-06,False
+STORE_462,Store 462,BRAND_42,Jordan,street,324,data_poor,332,2025-03-05,False
+STORE_463,Store 463,BRAND_07,Egypt,mall,185,data_poor,182,2025-08-02,False
+STORE_464,Store 464,BRAND_26,Oman,mall,255,data_poor,273,2025-05-03,False
+STORE_465,Store 465,BRAND_37,Qatar,street,333,data_poor,193,2025-07-22,False
+STORE_466,Store 466,BRAND_05,Egypt,airport,280,data_poor,253,2025-05-23,False
+STORE_467,Store 467,BRAND_18,Saudi Arabia,mall,99,data_poor,320,2025-03-17,False
+STORE_468,Store 468,BRAND_24,Oman,airport,237,data_poor,280,2025-04-26,False
+STORE_469,Store 469,BRAND_13,Egypt,airport,70,data_poor,216,2025-06-29,False
+STORE_470,Store 470,BRAND_03,Kuwait,airport,220,data_poor,191,2025-07-24,False
+STORE_471,Store 471,BRAND_34,Jordan,mall,360,data_poor,301,2025-04-05,False
+STORE_472,Store 472,BRAND_09,Oman,airport,213,data_poor,311,2025-03-26,False
+STORE_473,Store 473,BRAND_26,Bahrain,airport,222,data_poor,221,2025-06-24,False
+STORE_474,Store 474,BRAND_33,Jordan,airport,338,data_poor,309,2025-03-28,False
+STORE_475,Store 475,BRAND_31,UAE,street,219,data_poor,256,2025-05-20,False
+STORE_476,Store 476,BRAND_08,Egypt,airport,207,data_poor,352,2025-02-13,False
+STORE_477,Store 477,BRAND_45,UAE,airport,292,data_poor,365,2025-01-31,False
+STORE_478,Store 478,BRAND_42,Qatar,airport,76,data_poor,247,2025-05-29,False
+STORE_479,Store 479,BRAND_31,Kuwait,airport,372,data_poor,329,2025-03-08,False
+STORE_480,Store 480,BRAND_40,Egypt,mall,470,data_poor,364,2025-02-01,False
+STORE_481,Store 481,BRAND_16,UAE,airport,408,data_poor,354,2025-02-11,False
+STORE_482,Store 482,BRAND_13,UAE,street,210,data_poor,208,2025-07-07,False
+STORE_483,Store 483,BRAND_10,Egypt,airport,154,data_poor,287,2025-04-19,False
+STORE_484,Store 484,BRAND_33,Jordan,airport,422,data_poor,285,2025-04-21,False
+STORE_485,Store 485,BRAND_09,Qatar,airport,216,data_poor,195,2025-07-20,False
+STORE_486,Store 486,BRAND_31,Egypt,street,138,data_poor,349,2025-02-16,False
+STORE_487,Store 487,BRAND_35,Oman,airport,231,data_poor,297,2025-04-09,False
+STORE_488,Store 488,BRAND_44,Bahrain,airport,297,data_poor,353,2025-02-12,False
+STORE_489,Store 489,BRAND_16,Bahrain,airport,202,data_poor,229,2025-06-16,False
+STORE_490,Store 490,BRAND_20,Bahrain,airport,156,data_poor,237,2025-06-08,False
+STORE_491,Store 491,BRAND_32,Oman,street,228,data_poor,356,2025-02-09,False
+STORE_492,Store 492,BRAND_18,Bahrain,mall,343,data_poor,323,2025-03-14,False
+STORE_493,Store 493,BRAND_35,Egypt,street,469,data_poor,353,2025-02-12,False
+STORE_494,Store 494,BRAND_10,Bahrain,mall,197,data_poor,268,2025-05-08,False
+STORE_495,Store 495,BRAND_06,Oman,street,385,data_poor,362,2025-02-03,False
+STORE_496,Store 496,BRAND_31,Qatar,mall,473,data_poor,245,2025-05-31,False
+STORE_497,Store 497,BRAND_18,Bahrain,mall,105,data_poor,317,2025-03-20,False
+STORE_498,Store 498,BRAND_38,Qatar,mall,75,data_poor,337,2025-02-28,False
+STORE_499,Store 499,BRAND_34,Qatar,airport,169,data_poor,351,2025-02-14,False
+STORE_500,Store 500,BRAND_07,Egypt,street,417,data_poor,193,2025-07-22,False
+ECOM_UAE,E-commerce UAE,BRAND_MULTI,UAE,online,0,data_rich,1095,2023-02-01,True
+ECOM_SAU,E-commerce Saudi Arabia,BRAND_MULTI,Saudi Arabia,online,0,data_rich,1095,2023-02-01,True
+ECOM_KUW,E-commerce Kuwait,BRAND_MULTI,Kuwait,online,0,data_rich,1095,2023-02-01,True
+ECOM_QAT,E-commerce Qatar,BRAND_MULTI,Qatar,online,0,data_rich,1095,2023-02-01,True
+ECOM_BAH,E-commerce Bahrain,BRAND_MULTI,Bahrain,online,0,data_rich,1095,2023-02-01,True
+ECOM_OMA,E-commerce Oman,BRAND_MULTI,Oman,online,0,data_rich,1095,2023-02-01,True
+ECOM_EGY,E-commerce Egypt,BRAND_MULTI,Egypt,online,0,data_rich,1095,2023-02-01,True
+ECOM_JOR,E-commerce Jordan,BRAND_MULTI,Jordan,online,0,data_rich,1095,2023-02-01,True

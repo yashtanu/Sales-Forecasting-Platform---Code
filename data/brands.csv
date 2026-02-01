@@ -1,0 +1,47 @@
+brand_id,brand_name,category,price_tier,avg_price_point,seasonality_strength
+BRAND_01,Brand 1,Fragrances,ultra_luxury,1226,0.10207257856285201
+BRAND_02,Brand 2,Cosmetics,luxury,3996,0.2909794081763586
+BRAND_03,Brand 3,Jewelry,luxury,2731,0.21416613652079675
+BRAND_04,Brand 4,Luxury Watches,ultra_luxury,4803,0.19288807968840682
+BRAND_05,Brand 5,Luxury Watches,ultra_luxury,3523,0.4528979892659333
+BRAND_06,Brand 6,Cosmetics,ultra_luxury,3352,0.41518425195033515
+BRAND_07,Brand 7,Cosmetics,premium,2471,0.4506972671671694
+BRAND_08,Brand 8,Luxury Watches,luxury,4752,0.3411131862023493
+BRAND_09,Brand 9,Footwear,luxury,3822,0.49563978803548936
+BRAND_10,Brand 10,Fragrances,ultra_luxury,4230,0.28720830760251603
+BRAND_11,Brand 11,Jewelry,ultra_luxury,2808,0.16499770501589545
+BRAND_12,Brand 12,Fragrances,premium,2207,0.38743926938235485
+BRAND_13,Brand 13,Luxury Watches,premium,2861,0.41630706577010235
+BRAND_14,Brand 14,Jewelry,ultra_luxury,3421,0.43079593011052386
+BRAND_15,Brand 15,Footwear,ultra_luxury,3383,0.3677023413639817
+BRAND_16,Brand 16,Cosmetics,ultra_luxury,4011,0.22944066803403312
+BRAND_17,Brand 17,Jewelry,ultra_luxury,2236,0.2534297562704123
+BRAND_18,Brand 18,Fragrances,luxury,2800,0.2207783358766459
+BRAND_19,Brand 19,Luxury Watches,luxury,3045,0.3771074361690956
+BRAND_20,Brand 20,Luxury Watches,premium,1068,0.28615799637677175
+BRAND_21,Brand 21,Cosmetics,luxury,4216,0.4692424055788468
+BRAND_22,Brand 22,Handbags,premium,1061,0.35548453007975334
+BRAND_23,Brand 23,Handbags,luxury,1909,0.18765144037413758
+BRAND_24,Brand 24,Cosmetics,luxury,1354,0.2819914691082681
+BRAND_25,Brand 25,Footwear,luxury,4599,0.46511875531324176
+BRAND_26,Brand 26,Jewelry,ultra_luxury,4980,0.44925402339509335
+BRAND_27,Brand 27,Fashion,premium,3759,0.3112692496292774
+BRAND_28,Brand 28,Footwear,ultra_luxury,4721,0.14488351661490811
+BRAND_29,Brand 29,Jewelry,premium,4496,0.15994095255296573
+BRAND_30,Brand 30,Footwear,premium,3719,0.1464960088738657
+BRAND_31,Brand 31,Jewelry,premium,4877,0.2955311867324759
+BRAND_32,Brand 32,Fragrances,ultra_luxury,3814,0.1527777359284396
+BRAND_33,Brand 33,Eyewear,luxury,4719,0.12309471237300991
+BRAND_34,Brand 34,Fragrances,premium,2624,0.38931203193000097
+BRAND_35,Brand 35,Eyewear,luxury,124,0.3983217931327263
+BRAND_36,Brand 36,Fashion,ultra_luxury,3570,0.23781154662485382
+BRAND_37,Brand 37,Fashion,premium,593,0.47383311955397855
+BRAND_38,Brand 38,Fashion,luxury,359,0.21483628275652805
+BRAND_39,Brand 39,Cosmetics,ultra_luxury,3543,0.24978436825530706
+BRAND_40,Brand 40,Eyewear,luxury,3192,0.250258213520795
+BRAND_41,Brand 41,Cosmetics,premium,2948,0.14745326691411026
+BRAND_42,Brand 42,Eyewear,premium,1143,0.3911432563624513
+BRAND_43,Brand 43,Jewelry,ultra_luxury,286,0.49139627307165556
+BRAND_44,Brand 44,Fragrances,premium,4560,0.2696512118933606
+BRAND_45,Brand 45,Eyewear,ultra_luxury,2127,0.2842501114194385
+BRAND_MULTI,Multi-Brand Platform,Multiple,mixed,500,0.3
