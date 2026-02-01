@@ -1,0 +1,7 @@
+# Create empty .gitkeep files
+echo. > data\.gitkeep
+echo. > feature_store\.gitkeep
+echo. > models\.gitkeep
+echo. > outputs\.gitkeep
+echo. > monitoring\.gitkeep
+echo. > logs\.gitkeep
